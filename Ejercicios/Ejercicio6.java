@@ -17,6 +17,7 @@ public class Ejercicio6 {
         for (i = 0; i < numeros.length; i++) {
             System.out.print("Dime un número[" + i + "]= ");
             numeros[i] = sc.nextInt();
+            sc.close();
         }
         System.out.println(
                 "Vale, ya tenemos sus 6 números, ahora introduza otro número para ver si coincide con los introducidos anteriormente: ");
